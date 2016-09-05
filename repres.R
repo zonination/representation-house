@@ -20,9 +20,9 @@ df$ratio<-df$nrep*100000/df$uspop
 ggplot(df,aes(year,ratio))+
   geom_line(color="firebrick3",size=2)+
   geom_smooth(method=lm,color="black",size=.5,linetype=4,se=F)+
-  scale_y_log10(breaks=c(.1,1,10),limits=c(.1,3),minor_breaks=c(seq(.1,1,.1),seq(1,10,1)))+
+  scale_y_log10(breaks=c(.1,.2,.5,1,2,5,10),limits=c(.1,3),minor_breaks=c(seq(.1,1,.1),seq(1,10,1)))+
   scale_x_continuous(breaks=seq(1800,2000,50),minor_breaks=seq(1790,2010,10))+
-  ylab("Number of Representatives per 100,000 People")+
+  ylab("Number of House Members per 100,000 People")+
   xlab("Year")+
   ggtitle("Representation in the U.S.")+
   theme_bw()
