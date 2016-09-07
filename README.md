@@ -10,9 +10,9 @@ Listed below is a plot of the rapid decline in the voter's power of representati
 
 ## Gallery
 
-![Number of House Members per 30,000 people](https://raw.githubusercontent.com/zonination/representation-house/master/representation.png)
+![Number of House Members per 30,000 people - Log](https://raw.githubusercontent.com/zonination/representation-house/master/representation.png)
 
-![Number of House Members per 30,000 people](https://raw.githubusercontent.com/zonination/representation-house/master/representation2.png)
+![Number of House Members per 30,000 people - Linear](https://raw.githubusercontent.com/zonination/representation-house/master/representation2.png)
 
 ## Sources:
 
